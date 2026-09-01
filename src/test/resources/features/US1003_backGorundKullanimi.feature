@@ -16,7 +16,7 @@
       Then arama sonucunda urun bulunabildigini test eder
       And sayfayi kapatir
 
-    @wip
+
     Scenario: TC09 parametre ile nutella arama testi
       When arama kutusuna "nutella" yazip aratir
       And senkronizasyon icin 3 saniye bekler

@@ -15,7 +15,7 @@
       Then arama sonucunda urun bulunabildigini test eder
       And sayfayi kapatir
 
-      @wip
+
     Scenario: TC06 parametre ile nutella arama testi
       Given kullanici testotomasyonu anasayfaya gider
       When arama kutusuna "nutella" yazip aratir
