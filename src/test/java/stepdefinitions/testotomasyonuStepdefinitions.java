@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.Keys;
 import pages.TestotomasyonuPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class testotomasyonuStepdefinitions {
 
@@ -36,5 +37,33 @@ public class testotomasyonuStepdefinitions {
     public void aramaKutusunaDressYazipAratir() {
         testotomasyonuPage.aramaKutusu.sendKeys("dress" + Keys.ENTER);
 
+    }
+
+    @When("arama kutusuna java yazip aratir")
+    public void aramaKutusunaJavaYazipAratir() {
+        testotomasyonuPage.aramaKutusu.sendKeys("java" + Keys.ENTER);
+
+    }
+
+    @Then("arama sonucunda urun bulunamadigini test eder")
+    public void aramaSonucundaUrunBulunamadiginiTestEder() {
+        String actualAramaSonucu = testotomasyonuPage.aramaSonucElementi.getText();
+        String expectedAramaSonucu = "0 Products Found";
+
+        Assertions.assertEquals(expectedAramaSonucu,actualAramaSonucu);
+
+    }
+
+    @When("arama kutusuna {string} yazip aratir")
+    public void aramaKutusunaYazipAratir(String aranacakKelime) {
+        testotomasyonuPage.aramaKutusu.sendKeys(aranacakKelime + Keys.ENTER);
+
+
+    }
+
+    @And("senkronizasyon icin {int} saniye bekler")
+    public void senkronizasyonIcinSaniyeBekler(int beklemeSuresi) {
+
+        ReusableMethods.bekle(beklemeSuresi);
     }
 }
