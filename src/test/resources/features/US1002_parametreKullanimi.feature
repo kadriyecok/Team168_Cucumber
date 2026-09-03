@@ -5,7 +5,6 @@
       Given kullanici testotomasyonu anasayfaya gider
       When arama kutusuna "baby" yazip aratir
       Then arama sonucunda urun bulunabildigini test eder
-      And sayfayi kapatir
 
 
 
@@ -13,7 +12,7 @@
       Given kullanici testotomasyonu anasayfaya gider
       When arama kutusuna "backpack" yazip aratir
       Then arama sonucunda urun bulunabildigini test eder
-      And sayfayi kapatir
+
 
 
     Scenario: TC06 parametre ile nutella arama testi
@@ -21,4 +20,3 @@
       When arama kutusuna "nutella" yazip aratir
       And senkronizasyon icin 3 saniye bekler
       Then arama sonucunda urun bulunamadigini test eder
-      And sayfayi kapatir

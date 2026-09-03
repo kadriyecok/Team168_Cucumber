@@ -134,4 +134,15 @@ public class testotomasyonuStepdefinitions {
     public void kullaniciAnasayfayaGider(String configDosyasiUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(configDosyasiUrl));
     }
+
+    @And("password olarak listede verilen {string} girer")
+    public void passwordOlarakListedeVerilenGirer(String direktVerilenPassword) {
+        testotomasyonuPage.loginSayfasiPasswordlKutusu.sendKeys(direktVerilenPassword);
+    }
+
+    @When("email olarak listede verilen {string} girer")
+    public void emailOlarakListedeVerilenGirer(String direktVerilenEmail) {
+        testotomasyonuPage.loginSayfasiEmailKutusu.sendKeys(direktVerilenEmail);
+    }
+
 }
