@@ -10,4 +10,3 @@
       And arama sonucunda urun bulunabildigini test eder
       Then ilk urunu tiklar
       And acilan sayfadaki urun isminin case sensitive olmadan phone icerdigini test eder
-      And sayfayi kapatir

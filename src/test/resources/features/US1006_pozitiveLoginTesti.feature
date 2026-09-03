@@ -12,4 +12,3 @@
       Then basarili olarak giris yapilabildigini test eder
       And kodlari 2 saniye bekler
       Then logout butonuna basarak cikis yapar
-      And sayfayi kapatir

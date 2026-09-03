@@ -7,7 +7,7 @@
       When arama kutusuna "baby" yazip aratir
       Then arama sonucunda urun bulunabildigini test eder
       And kodlari 2 saniye bekler
-      And sayfayi kapatir
+
 
 
       Scenario: TC12 kullanici bazi kelimeleri bulamamali
@@ -15,4 +15,3 @@
         When arama kutusuna "cokoprens" yazip aratir
         Then arama sonucunda urun bulunamadigini test eder
         And kodlari 1 saniye bekler
-        And sayfayi kapatir
