@@ -1,7 +1,7 @@
 
 Feature: US1013 kullanici alisveris yapar
 
-  @wip
+  @wip @paralel2
   Scenario: TC22 Kullanici istedigi urunu sepete ekledigini test eder
 
     Given kullanici "sauceUrl" anasayfaya gider

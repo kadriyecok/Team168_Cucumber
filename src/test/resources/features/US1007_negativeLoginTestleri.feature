@@ -11,7 +11,7 @@
       When sisteme giris yapilamadigini test eder
 
 
-
+    @paralel2
     Scenario: TC15 kullanici gecersiz email ve gecerli password ile giris yapamamali
 
       Given kullanici testotomasyonu anasayfaya gider
