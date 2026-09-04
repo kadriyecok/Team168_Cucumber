@@ -1,7 +1,7 @@
 
   Feature: US1005 Kullanici parametre kullanarak istedigi kelimeyi aratir
 
-
+    @paralel2
     Scenario: TC11 Kullanici istedigi kelimeyi aratabilmeli
       Given kullanici testotomasyonu anasayfaya gider
       When arama kutusuna "baby" yazip aratir
