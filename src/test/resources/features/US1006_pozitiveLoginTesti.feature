@@ -1,7 +1,7 @@
 
   Feature: US1006 Kullanici gecerli bilgilerle sisteme giris yapar
 
-
+    @paralel1
     Scenario: TC13 kullanici gecerli bilgilerle sisteme giris yapabilmeli
 
       Given kullanici testotomasyonu anasayfaya gider

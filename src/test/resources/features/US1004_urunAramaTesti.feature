@@ -1,4 +1,4 @@
-
+  @paralel1
   Feature: US1004 kullanici aradigi kelime icin uygun sonuc bulur
 
 
