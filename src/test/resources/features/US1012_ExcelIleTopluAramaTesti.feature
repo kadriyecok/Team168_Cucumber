@@ -1,6 +1,5 @@
 Feature: US1012 Kullanici excel olarak verilen urunlerle arama testi yapar
 
-
   Scenario Outline:TC21 Kullanici excel'deki urunleri istenen miktarda bulabilmeli
 
     Given kullanici "toUrl" anasayfaya gider

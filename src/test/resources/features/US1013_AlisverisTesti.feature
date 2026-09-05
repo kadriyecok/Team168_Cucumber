@@ -8,11 +8,11 @@ Feature: US1013 kullanici alisveris yapar
     And kodlari 2 saniye bekler
     Then saucedemo username kutusuna "standard_user" yazar
     And saucedemo password kutusuna "secret_sauce" yazar
-    And kodlari 1 saniye bekler
+    And kodlari 2 saniye bekler
     Then saucedemo login tusuna basar
     And ilk urunun ismini kaydeder ve bu urunun sayfasina gider
     When saucedemo add to Cart butonuna basar
     Then saucedemo alisveris sepetine tiklar
     And kodlari 1 saniye bekler
     And sectigi urunun basarili olarak sepete eklendigini test eder
-    And kodlari 1 saniye bekler
+    And kodlari 2 saniye bekler
