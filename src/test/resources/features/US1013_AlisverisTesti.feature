@@ -3,7 +3,6 @@ Feature: US1013 kullanici alisveris yapar
 
   @wip @paralel2
   Scenario: TC22 Kullanici istedigi urunu sepete ekledigini test eder
-
     Given kullanici "sauceUrl" anasayfaya gider
     And kodlari 2 saniye bekler
     Then saucedemo username kutusuna "standard_user" yazar
