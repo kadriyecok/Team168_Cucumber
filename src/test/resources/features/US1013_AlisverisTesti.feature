@@ -14,4 +14,3 @@ Feature: US1013 kullanici alisveris yapar
     Then saucedemo alisveris sepetine tiklar
     And kodlari 1 saniye bekler
     And sectigi urunun basarili olarak sepete eklendigini test eder
-    And kodlari 2 saniye bekler
